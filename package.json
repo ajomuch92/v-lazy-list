@@ -1,6 +1,6 @@
 {
   "name": "vue-lazy-list",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple project to load a list lazily, ideally for large lists that need to be paginated",
   "main": "dist/vue-lazy-list.ssr.js",
   "browser": "dist/vue-lazy-list.esm.js",
