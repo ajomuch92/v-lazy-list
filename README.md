@@ -13,9 +13,9 @@ npm i --save v-lazy-list
 Install the component globally
 
 ```javascript
-import VueLazyList from 'v-lazy-list';
+import VLazyList from 'v-lazy-list';
 
-Vue.use(VueLazyList);
+Vue.use(VLazyList);
 ```
 
 And use it inside your components
