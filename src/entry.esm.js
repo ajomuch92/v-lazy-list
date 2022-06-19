@@ -3,7 +3,7 @@
 import * as components from '@/lib-components/index';
 
 // install function executed by Vue.use()
-const install = function installVueLazyList(Vue) {
+const install = function installVLazyList(Vue) {
   Object.entries(components).forEach(([componentName, component]) => {
     Vue.component(componentName, component);
   });
