@@ -83,7 +83,7 @@ var script$2 = {
     observeCallback: function observeCallback(entries) {
       var entry = entries[0];
 
-      if (entry !== null && entry !== void 0 && entry.isIntersecting) {
+      if (entry && entry.isIntersecting) {
         this.$emit('on-interception', entry);
       }
     }
@@ -223,8 +223,8 @@ var __vue_staticRenderFns__$2 = [];
 
 var __vue_inject_styles__$2 = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-353bc227_0", {
-    source: "div[data-v-353bc227]{border:solid 1px transparent}",
+  inject("data-v-c8084fd8_0", {
+    source: "div[data-v-c8084fd8]{border:solid 1px transparent}",
     map: undefined,
     media: undefined
   });
@@ -232,10 +232,10 @@ var __vue_inject_styles__$2 = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__$2 = "data-v-353bc227";
+var __vue_scope_id__$2 = "data-v-c8084fd8";
 /* module identifier */
 
-var __vue_module_identifier__$2 = "data-v-353bc227";
+var __vue_module_identifier__$2 = "data-v-c8084fd8";
 /* functional template */
 
 var __vue_is_functional_template__$2 = false;
@@ -388,7 +388,7 @@ var __vue_component__ = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, createInjectorSSR, undefined);
 
-var __vue_component__$1 = __vue_component__;/* eslint-disable import/prefer-default-export */var components$1=/*#__PURE__*/Object.freeze({__proto__:null,VLazyList:__vue_component__$1});var install = function installVueLazyList(Vue) {
+var __vue_component__$1 = __vue_component__;/* eslint-disable import/prefer-default-export */var components$1=/*#__PURE__*/Object.freeze({__proto__:null,VLazyList:__vue_component__$1});var install = function installVLazyList(Vue) {
   Object.entries(components$1).forEach(function (_ref) {
     var _ref2 = _slicedToArray(_ref, 2),
         componentName = _ref2[0],

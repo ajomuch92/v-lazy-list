@@ -28,7 +28,7 @@ var script$2 = {
     observeCallback(entries) {
       const entry = entries[0];
 
-      if (entry?.isIntersecting) {
+      if (entry && entry.isIntersecting) {
         this.$emit('on-interception', entry);
       }
     }
@@ -186,8 +186,8 @@ var __vue_staticRenderFns__$2 = [];
 
 const __vue_inject_styles__$2 = function (inject) {
   if (!inject) return;
-  inject("data-v-353bc227_0", {
-    source: "div[data-v-353bc227]{border:solid 1px transparent}",
+  inject("data-v-c8084fd8_0", {
+    source: "div[data-v-c8084fd8]{border:solid 1px transparent}",
     map: undefined,
     media: undefined
   });
@@ -195,7 +195,7 @@ const __vue_inject_styles__$2 = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$2 = "data-v-353bc227";
+const __vue_scope_id__$2 = "data-v-c8084fd8";
 /* module identifier */
 
 const __vue_module_identifier__$2 = undefined;
@@ -380,7 +380,7 @@ var components = /*#__PURE__*/Object.freeze({
 
 // Import vue components
 
-const install = function installVueLazyList(Vue) {
+const install = function installVLazyList(Vue) {
   Object.entries(components).forEach(_ref => {
     let [componentName, component] = _ref;
     Vue.component(componentName, component);

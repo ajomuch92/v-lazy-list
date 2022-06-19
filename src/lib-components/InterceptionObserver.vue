@@ -25,7 +25,7 @@ export default {
       },
       observeCallback(entries) {
         const entry = entries[0];
-        if (entry?.isIntersecting) {
+        if (entry && entry.isIntersecting) {
           this.$emit('on-interception', entry);
         }
       },
