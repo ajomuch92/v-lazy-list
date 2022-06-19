@@ -22,8 +22,8 @@ And use it inside your components
 
 ## Attributes
 
-| Prop      |      Type    | Required |  Default  | Description |
-|-----------|-----------|--------|----------|---------|--------|
+| Prop      | Type | Required |  Default  | Description |
+|-----------|-----------|--------|----------|---------|
 | items      |     Array   |    yes  |    []    |  A list with all the items to render into the list |
 | loading      |     Boolean   |    no  |    false    |  A value to render the animated spinner icon |
 
