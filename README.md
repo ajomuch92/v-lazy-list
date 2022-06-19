@@ -74,5 +74,5 @@ export default {
 }
 ```
 
-**Note** you can use the slot icon to pass a custom icon, but you have to animate it
+**Note:** you can use the slot icon to pass a custom icon, but you have to animate it
 
