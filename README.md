@@ -1,11 +1,11 @@
-# vue-lazy-list
+# v-lazy-list
 A simple project to load a list lazily, ideally for large lists that need to be paginated
 
 ### Install  
 
 NPM:  
 ```bash
-npm i --save vue-lazy-list
+npm i --save v-lazy-list
 ```
 
 ### Usage instructions  
@@ -13,7 +13,7 @@ npm i --save vue-lazy-list
 Install the component globally
 
 ```javascript
-import VueLazyList from 'vue-lazy-list';
+import VueLazyList from 'v-lazy-list';
 
 Vue.use(VueLazyList);
 ```
@@ -37,11 +37,11 @@ And use it inside your components
 
 ```html
 <template>
-  <vue-lazy-list :items="items" :loading="loading" @on-load-more="loadRandomNumbers">
+  <v-lazy-list :items="items" :loading="loading" @on-load-more="loadRandomNumbers">
     <template #item="{value}">
       <p>This is the item => {{value.item}} and this is the index => {{value.index}}</p>
     </template>
-  </vue-lazy-list>
+  </v-lazy-list>
 </template>
 ```
 
