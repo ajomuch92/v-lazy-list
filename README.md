@@ -1,6 +1,8 @@
 # v-lazy-list
 A simple project to load a list lazily, ideally for large lists that need to be paginated
 
+See an example [here](https://github.com/ajomuch92/v-lazy-list-example).
+
 ### Install  
 
 NPM:  
@@ -72,4 +74,5 @@ export default {
 }
 ```
 
-Also, you can use the slot icon to pass a custom icon, but you have to animate it
+**Note** you can use the slot icon to pass a custom icon, but you have to animate it
+
