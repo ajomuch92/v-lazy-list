@@ -318,7 +318,7 @@ var __vue_render__ = function () {
   var _c = _vm._self._c || _h;
 
   return _c('ul', {
-    staticClass: "vue-lazy-list"
+    staticClass: "v-lazy-list"
   }, [_vm._l(_vm.items, function (item, key) {
     return _c('li', {
       key: key
@@ -344,8 +344,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-4b9e6d61_0", {
-    source: ".vue-lazy-list li[data-v-4b9e6d61]{list-style-type:none}.icon-container[data-v-4b9e6d61]{width:100%;display:flex;align-items:center;justify-content:center}",
+  inject("data-v-0fc96704_0", {
+    source: "ul.v-lazy-list[data-v-0fc96704]{padding-left:0}.v-lazy-list li[data-v-0fc96704]{list-style-type:none}.icon-container[data-v-0fc96704]{width:100%;display:flex;align-items:center;justify-content:center}",
     map: undefined,
     media: undefined
   });
@@ -353,7 +353,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-4b9e6d61";
+const __vue_scope_id__ = "data-v-0fc96704";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
@@ -375,7 +375,7 @@ var __vue_component__$1 = __vue_component__;
 
 var components = /*#__PURE__*/Object.freeze({
   __proto__: null,
-  VueLazyList: __vue_component__$1
+  VLazyList: __vue_component__$1
 });
 
 // Import vue components
@@ -387,4 +387,4 @@ const install = function installVueLazyList(Vue) {
   });
 }; // Create module definition for Vue.use()
 
-export { __vue_component__$1 as VueLazyList, install as default };
+export { __vue_component__$1 as VLazyList, install as default };

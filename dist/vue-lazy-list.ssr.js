@@ -343,9 +343,9 @@ var __vue_render__ = function __vue_render__() {
   var _c = _vm._self._c || _h;
 
   return _c('ul', {
-    staticClass: "vue-lazy-list"
+    staticClass: "v-lazy-list"
   }, [_vm._l(_vm.items, function (item, key) {
-    return _vm._ssrNode("<li data-v-4b9e6d61>", "</li>", [_vm._t("item", null, {
+    return _vm._ssrNode("<li data-v-0fc96704>", "</li>", [_vm._t("item", null, {
       "value": {
         item: item,
         index: key
@@ -355,7 +355,7 @@ var __vue_render__ = function __vue_render__() {
     on: {
       "on-interception": _vm.interceptionHandler
     }
-  }), _vm._ssrNode(" "), _vm.loading ? _vm._ssrNode("<div class=\"icon-container\" data-v-4b9e6d61>", "</div>", [_vm._t("icon", function () {
+  }), _vm._ssrNode(" "), _vm.loading ? _vm._ssrNode("<div class=\"icon-container\" data-v-0fc96704>", "</div>", [_vm._t("icon", function () {
     return [_c('lazy-spinner-icon')];
   })], 2) : _vm._e()], 2);
 };
@@ -365,8 +365,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-4b9e6d61_0", {
-    source: ".vue-lazy-list li[data-v-4b9e6d61]{list-style-type:none}.icon-container[data-v-4b9e6d61]{width:100%;display:flex;align-items:center;justify-content:center}",
+  inject("data-v-0fc96704_0", {
+    source: "ul.v-lazy-list[data-v-0fc96704]{padding-left:0}.v-lazy-list li[data-v-0fc96704]{list-style-type:none}.icon-container[data-v-0fc96704]{width:100%;display:flex;align-items:center;justify-content:center}",
     map: undefined,
     media: undefined
   });
@@ -374,10 +374,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-4b9e6d61";
+var __vue_scope_id__ = "data-v-0fc96704";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-4b9e6d61";
+var __vue_module_identifier__ = "data-v-0fc96704";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
@@ -388,7 +388,7 @@ var __vue_component__ = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, false, undefined, createInjectorSSR, undefined);
 
-var __vue_component__$1 = __vue_component__;/* eslint-disable import/prefer-default-export */var components$1=/*#__PURE__*/Object.freeze({__proto__:null,VueLazyList:__vue_component__$1});var install = function installVueLazyList(Vue) {
+var __vue_component__$1 = __vue_component__;/* eslint-disable import/prefer-default-export */var components$1=/*#__PURE__*/Object.freeze({__proto__:null,VLazyList:__vue_component__$1});var install = function installVueLazyList(Vue) {
   Object.entries(components$1).forEach(function (_ref) {
     var _ref2 = _slicedToArray(_ref, 2),
         componentName = _ref2[0],
@@ -397,7 +397,7 @@ var __vue_component__$1 = __vue_component__;/* eslint-disable import/prefer-defa
     Vue.component(componentName, component);
   });
 }; // Create module definition for Vue.use()
-var components=/*#__PURE__*/Object.freeze({__proto__:null,'default':install,VueLazyList:__vue_component__$1});// only expose one global var, with component exports exposed as properties of
+var components=/*#__PURE__*/Object.freeze({__proto__:null,'default':install,VLazyList:__vue_component__$1});// only expose one global var, with component exports exposed as properties of
 // that global var (eg. plugin.component)
 
 Object.entries(components).forEach(function (_ref) {
