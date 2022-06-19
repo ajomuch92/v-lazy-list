@@ -2,18 +2,15 @@
   "name": "vue-lazy-list",
   "version": "1.0.0",
   "description": "",
-
   "main": "dist/vue-lazy-list.ssr.js",
   "browser": "dist/vue-lazy-list.esm.js",
   "module": "dist/vue-lazy-list.esm.js",
   "unpkg": "dist/vue-lazy-list.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
@@ -22,10 +19,7 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
