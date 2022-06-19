@@ -1,11 +1,11 @@
 <script>
 import Vue from 'vue';
-import { VueLazyList } from '@/entry.esm';
+import { VLazyList } from '@/entry.esm';
 
 export default Vue.extend({
   name: 'ServeDev',
   components: {
-    VueLazyList
+    VLazyList
   },
   data: () => ({
     items: [],
@@ -33,10 +33,10 @@ export default Vue.extend({
 
 <template>
   <div id="app">
-    <vue-lazy-list :items="items" :loading="loading" @on-load-more="loadRandomNumbers">
+    <v-lazy-list :items="items" :loading="loading" @on-load-more="loadRandomNumbers">
       <template #item="{value}">
         <p>This is the item => {{value.item}} and this is the index => {{value.index}}</p>
       </template>
-    </vue-lazy-list>
+    </v-lazy-list>
   </div>
 </template>
