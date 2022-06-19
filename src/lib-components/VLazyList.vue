@@ -1,5 +1,5 @@
 <template>
-  <ul class="vue-lazy-list">
+  <ul class="v-lazy-list">
     <li v-for="(item, key) in items" :key="key">
       <slot name="item" v-bind:value="{item, index: key}"/>
     </li>
@@ -49,7 +49,11 @@ export default {
 </script>
 
 <style scoped>
-  .vue-lazy-list li {
+  ul.v-lazy-list {
+    padding-left: 0px;
+  }
+
+  .v-lazy-list li {
     list-style-type: none;
   }
 
